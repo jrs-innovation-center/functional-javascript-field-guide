@@ -1,0 +1,13 @@
+{
+  "name": "jrscode-week2-fpjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {},
+  "license": "MIT",
+  "dependencies": {
+    "pushstate-server": "^3.0.1"
+  },
+  "scripts": {
+    "start": "pushstate-server . 1337"
+  }
+}
