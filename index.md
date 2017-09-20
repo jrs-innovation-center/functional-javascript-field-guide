@@ -1,5 +1,7 @@
 # Functional JavaScript
 
+![fpjs](https://i.ebayimg.com/images/g/2B4AAOSwNSxVJdto/s-l300.jpg)
+
 ## Contents
 
 * [Summary](/summary)
@@ -14,11 +16,15 @@
 * [Filter](/filter)
 * [Map](/map)
 * [Reduce](/reduce)
+* [Sorting](/sorting)
 
+* [Partial and Curry](/partial-curry)
 
-* [Partial Application](/partial)
-* [Curry](/curry)
-* [Composition Take 2](/composition)
+* [Composition Take 2](/composition2)
+
+* [nano-fp](/nano-fp)
+
 
 * [Factory Functions](/factories)
+
 * [Async](/async)

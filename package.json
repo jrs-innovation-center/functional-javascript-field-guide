@@ -8,6 +8,6 @@
     "pushstate-server": "^3.0.1"
   },
   "scripts": {
-    "start": "pushstate-server . 1337"
+    "start": "pushstate-server . 3000"
   }
 }

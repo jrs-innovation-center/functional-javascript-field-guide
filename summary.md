@@ -1,5 +1,13 @@
 ## Summary
 
+![Lincoln Logs](https://images-na.ssl-images-amazon.com/images/G/01/toys/detail-page/c26-B004S6EHFQ-2-l.jpg)
+
+vs
+
+![Legos](https://www.toysperiod.com/images/lego-parts.jpg)
+
+[https://www.eghsguardian.com/3976/opinion/lincoln-logs-vs-legos/](https://www.eghsguardian.com/3976/opinion/lincoln-logs-vs-legos/)
+
 Functional JavaScript is the practice of using functional programming concepts in JavaScript. JavaScript is not a pure functional language, but you can leverage a lot of the core concepts of functional programming in the language with a little discipline. JavaScripts first class functions and its ancestory of scheme makes it possible to use functional patterns in the language. Actually, there is a function programming specification written for JavaScript called FantasyLand.
 
 [FantasyLand](https://github.com/fantasyland/fantasy-land)

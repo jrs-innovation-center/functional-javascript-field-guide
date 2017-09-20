@@ -35,3 +35,30 @@ function map (fn, list) {
   return results
 }
 ```
+
+* Lets list all of the colors from the colors module.
+* Lets map a list of colors to some html
+* Lets map a deck of cards to html
+
+Lets use Map and Filter together
+
+What if we used the compose function to create a filter then map function, but
+wait our compose2 function only accepts unary functions. Maybe we can use our partial
+function to convert both the filter and map into unary functions, then we can compose
+our data like a pipeline.
+
+Lets Filter all the colors that contain 'r' and map them into a unorded list.
+
+Lets filter all of the cards that have the value 3 and map them into a list of html
+cards.
+
+
+Lets use map to render a grid,
+Then lets create a paintCell Function that will
+modify the color of a grid cell and then re-render the grid.
+
+Lets fill in the blanks to get this Game Of Life demo working.
+
+---
+
+[index](/)
