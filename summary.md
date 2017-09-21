@@ -1,5 +1,7 @@
 ## Summary
 
+> When I think of Functional Programming versus Imperative Programming, I think about the differences between lincoln logs and legos, this silly opinion piece is worth the read, if you think about language primitives like loops and conditionals and how they can box you in and make it really cumbersome to create and explore.
+
 ![Lincoln Logs](https://images-na.ssl-images-amazon.com/images/G/01/toys/detail-page/c26-B004S6EHFQ-2-l.jpg)
 
 vs
@@ -18,7 +20,7 @@ We are not going to get into the deep terminology, but discuss functional concep
 
 The first concept is declarative programming and really trying to find the right abstraction level for our application development.
 
-The less code we write as developers, the less bugs, it is very hard to write 100% clean code, but my choosing the right abstraction level and applying testable and provable patterns we can write solid code.
+The less code we write as developers, the less bugs, it is very hard to write 100% clean code, but by choosing the right abstraction level and applying testable and provable patterns we can write solid code. Solid code becomes much easier to maintain over time.
 
 ---
 

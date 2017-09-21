@@ -6,6 +6,7 @@
 
 * [Summary](/summary)
 * [Declarative Programming](/declarative)
+* [Scopes](/scopes)
 * [Understanding Functions](/functions)
 * [Immutability](/immutability)
 * [Closures and Higher Order Functions](/closures)
@@ -28,3 +29,7 @@
 * [Factory Functions](/factories)
 
 * [Async](/async)
+
+* [Classes and This](/classes)
+
+* [Resources](/resources)
