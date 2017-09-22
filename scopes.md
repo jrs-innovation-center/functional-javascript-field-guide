@@ -1,5 +1,9 @@
 # Scopes
 
+## What is scope?
+
+Scope is the total environment of objects and data at the point the line is being executed. You may have heard of the term Global Scope, this means that the variable or object is available in every area of the program. This can lead to a lot of problems with code organization and can create tightly coupled processes that can make an application brittle and hard to test. That is why we leverage scope, by given each function and block the exact access to objects and data that it needs, no more and no less. This creates a much more loose coupling between functions, objects and data. By result, the code is much easier to maintain and manage.
+
 There are two types of scopes in JavaScript:
 
 * Lexical
@@ -48,6 +52,10 @@ if (true) {
 }
 // cant access bar out here...
 ```
+
+Most programming languages use block scope, but lexical scope has a lot of powerful features like closures, so it is worth understanding both. As functional programmers, there is much more advantage using lexical scope and not doing a lot of assignment in if blocks or loops, but you have the ability if you need it.
+
+
 ---
 
 [index](/)

@@ -1,5 +1,19 @@
 # Closures and Higher Order Functions
 
+## Common Interview Question
+
+> What is a closure?
+
+[https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-closure-b2f0d2152b36](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-closure-b2f0d2152b36)
+
+> Be prepared for a quick follow-up: “Can you name two common uses for closures?”
+
+A closure is all about lexical scope, when you create a new function all of the values created in that function only has scope inside that function, if you return a function that was defined within that function then it carries with it access to all of the values of that parents scope from creation time.
+
+Some common uses is `factory functions` and object or function privacy. Another use case is partial application or currying. By returning a function to the caller if the caller did not send all of the inputs on the first call, you can store the inputs the caller did send and then await the remaining inputs before running the function. 
+
+## Lets try to understand
+
 Before we can jump into closures and HOF, we need to understand how functions can also be values. Just like we have been returning values that are integer, string, boolean, we can also return values as a function.
 
 ``` js

@@ -16,31 +16,36 @@ const Show = lifecycle({
 
     fetch(`/${page}.md`)
       .then(res => res.text())
-      .then(text => this.setState({ source: text }))
+      .then(text => this.setState({ source: text, title: page }))
   }
-})(({ source }) => {
+})(({ source, title }) => {
   return (
-    <div className="markdown-body">
-      <Markdown
-        options={{
-          html: true,
-          highlight: function(str, lang) {
-            if (lang && hljs.getLanguage(lang)) {
+    <div className="flex flex-column vh-100">
+      <div className="h3 bg-black-80 white">
+        <h1 className="avenir tc tracked ttu">{title}</h1>
+      </div>
+      <div className="markdown-body vh-100 pa2 overflow-scroll">
+        <Markdown
+          options={{
+            html: true,
+            highlight: function(str, lang) {
+              if (lang && hljs.getLanguage(lang)) {
+                try {
+                  return hljs.highlight(lang, str).value
+                } catch (err) {}
+              }
+
               try {
-                return hljs.highlight(lang, str).value
+                return hljs.highlightAuto(str).value
               } catch (err) {}
+
+              return '' // use external default escaping
             }
-
-            try {
-              return hljs.highlightAuto(str).value
-            } catch (err) {}
-
-            return '' // use external default escaping
-          }
-        }}
-      >
-        {source}
-      </Markdown>
+          }}
+        >
+          {source}
+        </Markdown>
+      </div>
     </div>
   )
 })

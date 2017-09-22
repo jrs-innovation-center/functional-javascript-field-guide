@@ -96,6 +96,8 @@ Now we have a great utility function that can save us from a potential oversight
 
 By adding this declarative abstraction in your tool bag, you can be confident you will not fall into this trap.
 
+---
+
 ``` js
 if (!foo) {
   // do Stuff
@@ -131,6 +133,8 @@ function not (v) {
 ```
 
 > `not` can be used in several situations where you need to negate a value.
+
+When we call a function inside another function we are composing functions, or connecting functions together to get a more complex function. The nice thing about this composition, the not function does not have to know anything about the isNil function and vice versa, they work just fine independently and also work great together. This is a good example of loose coupling. When functions or objects or modules can be composed together without having to know about each other.
 
 ---
 
