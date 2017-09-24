@@ -1,5 +1,7 @@
 # Scopes
 
+<a target="\_slides" href="https://slide-img-cmpqnfsjep.now.sh?img=http://www.thatjsdude.com/images/scope/closureScope.png">Show Slide</a>
+
 ## What is scope?
 
 Scope is the total environment of objects and data at the point the line is being executed. You may have heard of the term Global Scope, this means that the variable or object is available in every area of the program. This can lead to a lot of problems with code organization and can create tightly coupled processes that can make an application brittle and hard to test. That is why we leverage scope, by given each function and block the exact access to objects and data that it needs, no more and no less. This creates a much more loose coupling between functions, objects and data. By result, the code is much easier to maintain and manage.
@@ -10,6 +12,9 @@ There are two types of scopes in JavaScript:
 * Block
 
 ## Lexical
+
+<a target="\_slides" href="https://slide-img-cmpqnfsjep.now.sh?img=http://www.datchley.name/content/images/2015/08/js-es5-scope-2.png">Show Slide</a>
+
 
 Lexical Scope is managed by functions, so a new layer of scope is created every time there is a new function.
 
@@ -41,6 +46,8 @@ In lexical scope, each bucket of variables are passed down to any
 function referenced inside the file.
 
 ## Block Scope
+
+<a target="\_slides" href="https://slide-img-cmpqnfsjep.now.sh?img=http://davidql.github.io/scope_talk/scope_diagram.png">Show Slide</a>
 
 Is pretty simple, by using the let variable declaration, you can create private scope in any block.
 

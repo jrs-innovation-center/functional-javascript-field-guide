@@ -1,5 +1,7 @@
 ## Summary
 
+<a target="\_slides" href="https://slide-img-cmpqnfsjep.now.sh?img=http://creativesoftware.com/sites/default/files/styles/large_blog__900x400_/public/field/image/JavaScript.png?itok=She11sw6">Show Slide</a>
+
 > When I think of Functional Programming versus Imperative Programming, I think about the differences between lincoln logs and legos, this silly opinion piece is worth the read, if you think about language primitives like loops and conditionals and how they can box you in and make it really cumbersome to create and explore.
 
 ![Lincoln Logs](https://images-na.ssl-images-amazon.com/images/G/01/toys/detail-page/c26-B004S6EHFQ-2-l.jpg)
@@ -10,7 +12,7 @@ vs
 
 [https://www.eghsguardian.com/3976/opinion/lincoln-logs-vs-legos/](https://www.eghsguardian.com/3976/opinion/lincoln-logs-vs-legos/)
 
-Functional JavaScript is the practice of using functional programming concepts in JavaScript. JavaScript is not a pure functional language, but you can leverage a lot of the core concepts of functional programming in the language with a little discipline. JavaScripts first class functions and its ancestory of scheme makes it possible to use functional patterns in the language. Actually, there is a function programming specification written for JavaScript called FantasyLand.
+Functional JavaScript is the practice of using functional programming concepts in JavaScript. JavaScript is not a pure functional language, but you can leverage a lot of the core concepts of functional programming in the language with a little discipline. JavaScripts first class functions and its ancestry of scheme makes it possible to use functional patterns in the language. Actually, there is a function programming specification written for JavaScript called FantasyLand.
 
 [FantasyLand](https://github.com/fantasyland/fantasy-land)
 

@@ -1,5 +1,7 @@
 # Partial Application and Curry
 
+<a target="\_slides" href="https://slide-img-cmpqnfsjep.now.sh?img=http://goddessgrub.com/blog/wp-content/uploads/2012/09/chicken-curry-2.jpg">show slide</a>
+
 Generalization to Specialization, or when you have a function that needs more than one input, instead of creating buckets to hold the information you need for each input until you have all the inputs, simply pass the inputs you know to the function and let it hold them for you until you have all the inputs needed for the function to perform. This process can create a much cleaner approach to programming. Often times, you know some of the inputs you need before you know all of the inputs.
 
 ## What is the difference between partial application and curry?

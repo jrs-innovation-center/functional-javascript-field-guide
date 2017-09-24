@@ -1,5 +1,7 @@
 # Map
 
+<a target="\_slides" href="https://slide-img-cmpqnfsjep.now.sh?img=http://api.ning.com/files/-3i3rVffQH2bautHoYhtuyn-BhEFBMR3TNXJzACS9ATLysgH7VID6G3-DRqv65rcjsIwZ7riHJZ9rtS9XGWzIc326dpaeNvF/bor55.PNG">show slide</a>
+
 Map is a way to take an array or list of values and transform it
 into another list of values. This transformation process is very powerful,
 you can transform a list of numbers by adding 10 to each number. You can convert

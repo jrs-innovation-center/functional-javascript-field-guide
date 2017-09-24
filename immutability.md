@@ -1,5 +1,7 @@
 ## Immutability
 
+<a target="\_slides" href="https://slide-img-cmpqnfsjep.now.sh?img=http://www.figouz.net/Lego-Star-Wars/img/75002-AT-RT/501st-Clone-Troopers.jpg">Show Slide</a>
+
 In order to understand immutability, we must first understand mutation.
 
 Basically, in the early days, computers were constrained by memory and storage so it was very expensive and valuable, so languages came up with a way to mutate variables to share the same memory space. For example, both arrays and objects are mutable, which means the state of the structures can change, while at first this seems to be a feature, it is the second most cause for creating bugs.

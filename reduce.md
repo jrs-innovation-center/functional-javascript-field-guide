@@ -1,5 +1,7 @@
 # Reduce
 
+<a target="\_slides" href="https://slide-img-cmpqnfsjep.now.sh?img=http://api.ning.com/files/-3i3rVffQH2bautHoYhtuyn-BhEFBMR3TNXJzACS9ATLysgH7VID6G3-DRqv65rcjsIwZ7riHJZ9rtS9XGWzIc326dpaeNvF/bor55.PNG">show slide</a>
+
 So Filter allows us create a subset list of items and map allows us to transform a list of items. Reduce allows us to take a list of times and return a single value.
 
 The most common and clear usage for reduce is a sum function.

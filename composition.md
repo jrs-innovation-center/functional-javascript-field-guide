@@ -1,5 +1,7 @@
 # Composition
 
+<a target="\_slides" href="https://slide-img-cmpqnfsjep.now.sh?img=http://restaurantnewsrelease.com/wp-content/uploads/2016/04/SUBWAY-Sandwich-Shops-to-Include-Calories-on-all-US-Menu-Boards-This-Month.jpg">show slide</a>
+
 Having small little functions that do one thing really well and have well defined inputs and output, should sound familiar especially if you think of legos. It is very easy to take all different kinds of legos that all have the exact same locking mechanisms to create all kinds of things. That is a similar comparison to functional programming, have little functions that you may look at and say where on earth would I use this function? But they all have well defined inputs and output. So the can be joined together to create complex groupings of logic.
 
 Lets look at a simple compose2 function.

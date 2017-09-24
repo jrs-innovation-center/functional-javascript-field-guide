@@ -1,5 +1,7 @@
 # Data Structures
 
+<a target="\_slides" href="https://slide-img-cmpqnfsjep.now.sh?img=https://cdn-images-1.medium.com/max/2000/1*fC-bKImryJCveD_3orj6pQ.png">show slide</a>
+
 So there are all kinds of data structures in programming, but 80% of the time you will only need to be concerned with two types of complex data structures:
 
 * Arrays - (Lists, Collections)

@@ -1,5 +1,8 @@
 # Closures and Higher Order Functions
 
+<a target="\_slides" href="https://slide-img-cmpqnfsjep.now.sh?img=http://www.falconsgab.com/wp-content/uploads/2015/01/design-concepts-102513-03-1024x576.jpg">Show Slide</a>
+
+
 ## Common Interview Question
 
 > What is a closure?
@@ -10,7 +13,7 @@
 
 A closure is all about lexical scope, when you create a new function all of the values created in that function only has scope inside that function, if you return a function that was defined within that function then it carries with it access to all of the values of that parents scope from creation time.
 
-Some common uses is `factory functions` and object or function privacy. Another use case is partial application or currying. By returning a function to the caller if the caller did not send all of the inputs on the first call, you can store the inputs the caller did send and then await the remaining inputs before running the function. 
+Some common uses is `factory functions` and object or function privacy. Another use case is partial application or currying. By returning a function to the caller if the caller did not send all of the inputs on the first call, you can store the inputs the caller did send and then await the remaining inputs before running the function.
 
 ## Lets try to understand
 

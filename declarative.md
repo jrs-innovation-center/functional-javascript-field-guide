@@ -1,6 +1,8 @@
 ## What is declarative programming?
 
-It is the practice of telling the computer what you want the program to do versus how you want the program to do something.
+<a target="\_slides" href="https://slide-img-cmpqnfsjep.now.sh?img=http://image.slidesharecdn.com/mattersofstate-151205082114-lva1-app6892/95/matters-of-state-23-638.jpg?cb=1449303953">Show Slide</a>
+
+Declarative programming is the practice of telling the computer what you want the program to do versus how you want the program to do something.
 
 HTML is a good example of declarative programming, instead of instructing the browser how to draw every aspect of the user interface we tell the browser what we want and it knows how to render from the html text to a presentation.
 

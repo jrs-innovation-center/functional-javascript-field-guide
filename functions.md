@@ -1,5 +1,7 @@
 ## Understanding Functions
 
+<a target="\_slides" href="https://slide-img-cmpqnfsjep.now.sh?img=http://codesupport.info/wp-content/uploads/2013/03/javascript_function_05.png">Show Slide</a>
+
 The function keyword in javascript is used to define really three types of executable routines.
 
 1. procedure
@@ -49,6 +51,8 @@ const echo = (x) => x
 Each of these function definitions do the same thing, the take a value and returns the value.
 
 ### Pure Functions
+
+<a target="\_slides" href="https://slide-img-cmpqnfsjep.now.sh?img=http://1.bp.blogspot.com/-TEb7l6z6pMc/Ti4EB5HIFrI/AAAAAAAAFTQ/1PGph9H_WFA/s1600/zen+garden.jpg">Show Slide</a>
 
 A `pure function` is a function with the same input, will always return the same output. Pure functions are very important in functional program, because they keep things provable and developers can trust the outcome of the function, which makes things very testable. Using pure functions as much as possible will make your applications more reliable. Every time we call echo with an input, we will always get the same result back.
 
