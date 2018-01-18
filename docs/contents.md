@@ -1,6 +1,7 @@
-# Functional JavaScript
-
-![fpjs](https://i.ebayimg.com/images/g/2B4AAOSwNSxVJdto/s-l300.jpg)
+---
+id: contents
+title: Functional JavaScript
+---
 
 ## Contents
 

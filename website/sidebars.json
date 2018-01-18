@@ -1,0 +1,28 @@
+{
+  "docs": {
+    "Introduction": [
+      "contents",
+      "summary",
+      "declarative",
+      "scopes",
+      "functions",
+      "immutability",
+      "closures"
+    ],
+    "Fundamentals": [
+      "composition",
+      "data-structures",
+      "filter",
+      "map",
+      "reduce",
+      "sorting",
+      "partial-curry",
+      "composition2"
+    ],
+    "Advanced": ["nano-fp", "factories", "async", "classes"],
+    "Extras": ["snake", "resources"]
+  },
+  "docs-other": {
+    "First Category": ["doc4", "doc5"]
+  }
+}
